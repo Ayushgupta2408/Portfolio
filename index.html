@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Ayush Kumar Gupta</title>
+    <head>
+     
+<title>hi</title>
+      <style>
+          body {
+              margin: 0;
+              padding: 0;
+          }
+          .image-right-corner {
+              position: absolute;
+              top: 0;
+              right: 0;
+              margin: 200px; /* Add spacing from the edges if needed */
+          }
+      </style>
+  </head>
+  <body>
+      <!-- Replace 'image.jpg' with the path to your image -->
+      <img src="ayush-devfest.jpeg" alt="Image" class="image-right-corner" width="300" height="300">
+  </body>
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Ayush Kumar Gupta</span>
+          </h2>
+          <p class="text-muted">
+            I'm a Full stack Developer having 2 years of experience in expertise of
+            creating website with fully responsive Also with backend part too.
+          </p>
+          <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+            Hire Me
+          </button>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="file:///C:/Users/Ayush/Downloads/banner-01.webp" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>
+          Provide Wide Range of <br />
+          Digital Services
+        </h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="webdesign.jpg"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Design</h4>
+              <p class="text-muted">
+                Web design is the art and science of creating visually appealing, functional, and user-friendly websites.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="webdesign.jpg"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Web Development</h4>
+              <p class="text-muted">
+                It involves coding, designing, and deploying functional websites that serve various purposes, 
+                from personal blogs to complex e-commerce platforms and web-based applications.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-10" data-aos="fade-up">
+          <div class="service-card">
+            <div class="img">
+              <img
+                src="webdesign.jpg"
+                class="w-25 img-fluid img"
+                alt=""
+              />
+            </div>
+            <div class="content mt-3">
+              <h4>Debugging</h4>
+              <p class="text-muted">
+                It's an essential part of software development,
+                ensuring that the code functions as intended and delivers a smooth user experience.
+              </p>
+              <a href="" class="link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="row justify-content-evenly">
+        <div class="col-10 col-md-5 skill-with-progress" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress html-css">
+                  <span class="progress-value html-progress">85%</span>
+                </div>
+                <br />
+                <span class="text">HTML & CSS</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress javascript">
+                  <span class="progress-value javascript-progress">70%</span>
+                </div>
+                <br />
+                <span class="text">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-evenly mt-4">
+            <div class="col-10 col-md-6">
+              <div class="progress-card ms-3 ms-md-0">
+                <div class="circular-progress php">
+                  <span class="progress-value php-progress">75%</span>
+                </div>
+                <br />
+                <span class="text">Springboot</span>
+              </div>
+            </div>
+            <div class="col-10 col-md-6 mt-4 mt-md-0">
+              <div class="progress-card ms-3  ms-md-0">
+                <div class="circular-progress reactjs">
+                  <span class="progress-value reactjs-progress">75%</span>
+                </div>
+                <br>
+                <span class="text">ReactJS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-10 col-md-5 skill-detail" data-aos="slide-left">
+          <div class="heading mt-5 mt-md-3">
+            <small>My Skills</small>
+            <h3>I am proficient in agile methodologies, ensuring timely delivery of high-quality software products.</h3>
+            <p class="text-muted">
+              I am skilled FUll Stack developer with expertise in system design and scalable architecture. 
+             
+              I have proficiency includes working with frameworks like React.js, Spring Boot, and Django,
+               alongside hands-on experience with databases such as MySQL, MongoDB, and jenkin as (CI/CD tools).
+            </p>
+            <p class="text-muted">
+              I have extensive experience in building robust server-side applications,
+               focusing on efficiency, security, and high availability.
+            </p>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="Ayush resume (3)-1.pdf"
+                download="Ayush resume (3)-1.pdf"
+                style="text-decoration: none;color: #0c0101;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">Game</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="website">Website</button>
+        <button class="filter-item" data-filter="brand">Brand</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="Imageprocessing.jfif" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Image Classification</h4>
+                <span class="badge bg-secondary badge-pill"> TensorFlow</span>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">OpenCV</span
+                ><br />
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="Video Streaming.jfif"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Video Streming Site</h4>
+                <span class="badge bg-secondary badge-pill">Reactjs</span>
+                <span class="badge bg-secondary badge-pill">SpringBoot</span>
+                <span class="badge bg-secondary badge-pill mb-2">My SQL</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="Ecommerce.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">E-commerce</h4>
+                <span class="badge bg-secondary badge-pill">Reactjs</span>
+                <span class="badge bg-secondary badge-pill">Springboot</span>
+                <span class="badge bg-secondary badge-pill mb-2">MySQL</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="chatting app.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Real time Chating app</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">React.js</span>
+                <span class="badge bg-secondary badge-pill mb-2">Springboot</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="Expense.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Expenses Tracker</h4>
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Web app</span
+                ><br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="Betting.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Betting App</h4>
+                <span class="badge bg-secondary badge-pill">SpringBoot</span>
+                <span class="badge bg-secondary badge-pill">Reactjs</span>
+                <span class="badge bg-secondary badge-pill mb-2">MongoDB</span>
+                <span class="badge bg-secondary badge-pill mb-2">Socket.IO</span
+                  >
+                <br />
+                <a href="#" class="read-more-btn link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+    <!-- testimonial section starts  -->
+    <section class="testimonial mt-5 pt-5" id="testimonial">
+      <div class="row justify-content-evenly">
+        <div class="col-md-4 col-10" data-aos="slide-right">
+          <img src="images/tastimonials-img.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-md-6 col-10 mt-5" data-aos="slide-left">
+          <div class="heading">
+            <small>Testimonials</small>
+            <h3>Happy Clients Feedback</h3>
+            <!-- here we will use carousel element from bootstrap -->
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                        His professionalism, dedication, and passion for continuous learning make him a standout in his field. Whether you need a well-designed backend system or insightful technical writing, 
+                        Ayush is someone you can trust to deliver outstanding results.
+                      </p>
+                      <h4>Amrita Singh</h4>
+                      <small class="fs-6 text-muted">Client</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                       
+Certainly! Here’s a section that you can use as if you're a client speaking about Ayush Kumar Gupta:
+
+About Ayush Kumar Gupta – A Client’s Perspective
+I’ve had the pleasure of working with Ayush Kumar Gupta, and I can confidently say that his expertise as a backend developer and technical content writer is top-notch. Ayush’s technical skills, combined with his ability to communicate complex concepts clearly,
+ have made him an invaluable asset to our projects.
+                      </p>
+                      <h4>Asuthosh jha</h4>
+                      <small class="fs-6 text-muted">Client</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row justify-content-evenly">
+                    <div class="col-2 text-center">
+                      <i class="bi bi-quote"></i>
+                    </div>
+                    <div class="col-10">
+                      <p class="text-muted">
+                       He did Efficient Work and deliver my Site Within Time Constraints.
+                       As a backend developer, He consistently demonstrates a deep understanding of system design, architecture, and scalability. His attention to detail ensures that the systems he builds are not only efficient but also well-optimized for performance. His problem-solving skills are exceptional, 
+                       and he has a knack for transforming abstract ideas into concrete, functional solutions.
+                      </p>
+                      <h4>Arun Agrawal</h4>
+                      <small class="fs-6 text-muted">Client</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="nextprev-btn rounded-pill prev-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <i class="bi bi-arrow-left-circle-fill prev"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="nextprev-btn rounded-pill next-btn"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <i class="bi bi-arrow-right-circle-fill next"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial ends here -->
+
+    <!-- blog section starts -->
+    <section class="blog mt-5 pb-5" id="blog">
+      <div class="heading text-center pt-5">
+        <small>Latest News</small>
+        <h3>Blog & Articles</h3>
+      </div>
+      <div class="row justify-content-evenly px-4 mt-4" data-aos="fade-up">
+        <div class="blogpost col-md-4 col-10 mt-2 mt-md-0 game all">
+          <div class="card">
+            <img
+              src="machine Learning.jpg"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Ayush Kumar Gupta</small
+              ><span class="ms-3">26 Oct,2024</span>
+              <h4 class="card-title">
+                <a href=""> Machine Learning</a>
+              </h4>
+              <p class="text-muted">
+                Machine learning is revolutionizing the way we interact with technology, making systems smarter, faster, and more efficient. By leveraging large amounts of data, advanced algorithms, and computational power, ML enables businesses to automate processes, make better predictions, and create new solutions to complex problems.
+                 As the field continues to grow, the possibilities for machine learning are virtually endless.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal1">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 website all">
+          <div class="card">
+            <img
+              src="Real time.png"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Ayush Kumar Gupta</small
+              ><span class="ms-3">7 feb,2024</span>
+              <h4 class="card-title">
+                <a href=""> Real time Application</a>
+              </h4>
+              <p class="text-muted">
+                Real-time applications are transforming industries and enhancing user experiences by processing data and providing immediate feedback. From healthcare and finance to gaming and e-commerce, real-time applications have become indispensable in our connected world. However, building these applications requires advanced technologies, a keen focus on reliability, and an understanding of the unique challenges they pose.
+
+As technology continues to evolve, we can expect even more innovative real-time applications to emerge,
+ revolutionizing the way we interact with the digital world.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal2">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="blogpost col-md-4 col-10 mt-5 mt-md-0 webapp all">
+          <div class="card">
+            <img
+              src="Al.jfif"
+              class="card-img-top rounded-4"
+              alt="..."
+            />
+            <div class="card-body px-4">
+              <small>By Ayush Kumar Gupta</small
+              ><span class="ms-3">29 Dec,2024</span>
+              <h4 class="card-title">
+                <a href="">Artificial Intelligence</a>
+              </h4>
+              <p class="text-muted">
+                Artificial Intelligence refers to the simulation of human intelligence processes by machines, particularly computer systems. These processes include learning, reasoning, problem-solving, perception, and language understanding. Essentially, AI enables machines to mimic human behavior and decision-making.
+
+AI systems are designed to process and analyze large amounts of data, draw conclusions, and execute tasks without human intervention. The goal of AI is to create machines that can think, learn, 
+and make decisions in ways that are similar to how humans do, and in some cases, even better.
+              </p>
+              <a href="#" class="read-more-btn link" data-bs-toggle="modal" data-bs-target="#exampleModal3">Read More</a>
+            </div>
+          </div>
+        </div>
+        <!-- here we will make modals if Read more link is clicked the modal will popup -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/2048game.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Ayush Kumar Gupta</small
+                    ><span class="text-muted ms-2">6 may,2024</span>
+                  <h4 class="card-title mt-3">Databases</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">...</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="Video Streaming.jfif" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Ayush Kumar Gupta</small
+                    ><span class="text-muted ms-2 ms-md-0">8 Aug,2024</span>
+                  <h4 class="card-title mt-3">Video Streaming App</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">In today’s digital age, video streaming has become an essential part of our daily lives. With platforms like Netflix, YouTube, and TikTok dominating the entertainment and media industry, the demand for building your own video streaming app has skyrocketed. Whether you're aiming to create a live-streaming platform, a video-on-demand (VOD) service, or a hybrid of both, 
+                    this guide will walk you through the critical components and technologies you need to build your video streaming app from scratch.</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              
+                <button type="button" class="btn-c rounded-pill" data-bs-dismiss="modal"><i class="bi bi-x-circle-fill"></i></button>
+              
+              <div class="modal-body px-4">
+                <div class="img">
+                  <img src="images/dictionary.png" class="img-fluid" alt="">
+                </div>
+                <div class="content mt-3">
+                  <small>By Ayush Kumar Gupta</small
+                    ><span class="text-muted ms-2 ms-md-0">Mar 8,2024</span>
+                  <h4 class="card-title mt-3">Handeling Million Users</h4>
+                  <div class="social-links mt-4">
+                      <button href="" class="rounded-pill dribble">
+                        <i class="bi bi-dribbble"></i>
+                      </button>
+                      <button href="" class="rounded-pill whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                      </button>
+                      <button href="" class="rounded-pill behance">
+                        <i class="bi bi-behance"></i>
+                      </button>
+                  </div>
+                  <p class="text-muted mt-3">...</p>
+                </div>
+              </div>
+              <div class="heading px-2">
+                <h3 class="fs-3 ms-3">Leave A Comment</h3>
+              </div>
+              <div class="contact-form ms-3 mt-3 pb-4 px-2">
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="E-mail"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Mobile No."
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    placeholder="Message"
+                    rows="5"
+                  ></textarea>
+                </div>
+                <button class="c-btn h-btn mt-3 py-2 px-4 rounded-pill">
+                  Submit
+                </button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends here -->
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Bhilai ,Chhattisgarh</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 7999669260</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>ag5510362@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>guptacoder.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <button href="" class="rounded-pill dribble">
+          <i class="bi bi-dribbble"></i>
+        </button>
+        <button href="" class="rounded-pill whatsapp">
+          <i class="bi bi-whatsapp"></i>
+        </button>
+        <button href="" class="rounded-pill behance">
+          <i class="bi bi-behance"></i>
+        </button>
+      </div>
+      <hr class="text-muted my-4" />
+
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
